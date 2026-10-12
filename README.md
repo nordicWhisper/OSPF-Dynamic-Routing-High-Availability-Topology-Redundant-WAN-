@@ -15,14 +15,14 @@ Projekt przedstawia wdrożenie routingu dynamicznego **OSPF** w topologii trójk
 
 | Router | Interfejs | Adres IP | Status | Przypisanie / Sąsiedzi |
 |:-------|:----------|:---------|:-------|:----------------------|
-| **R1** | `GigabitEthernet0/0/0` | `10.53.0.1` | UP[cite: 3] | Połączenie / Ścieżka do R2 |
-| **R1** | `GigabitEthernet0/0/1` | `10.53.1.1` | UP[cite: 3] | Połączenie do R3 |
-| **R1** | `Loopback1` | `172.16.1.1` | UP[cite: 3] | Symulowana sieć LAN / Router ID |
-| **R2** | `GigabitEthernet0/0/0` | `10.53.0.2` | UP[cite: 3] | Połączenie / Ścieżka do R1 |
-| **R2** | `GigabitEthernet0/0/1` | `10.53.2.1` | UP[cite: 3] | Połączenie do R3 |
-| **R2** | `Loopback1` | `192.168.1.1` | UP[cite: 3] | Symulowana sieć LAN / Router ID |
-| **R3** | `GigabitEthernet0/0/0` | `10.53.2.3` | UP[cite: 3] | Połączenie do R2 |
-| **R3** | `GigabitEthernet0/0/1` | `10.53.1.3` | UP[cite: 3] | Połączenie do R1 |
+| **R1** | `GigabitEthernet0/0/0` | `10.53.0.1` | UP | Połączenie / Ścieżka do R2 |
+| **R1** | `GigabitEthernet0/0/1` | `10.53.1.1` | UP | Połączenie do R3 |
+| **R1** | `Loopback1` | `172.16.1.1` | UP| Symulowana sieć LAN / Router ID |
+| **R2** | `GigabitEthernet0/0/0` | `10.53.0.2` | UP | Połączenie / Ścieżka do R1 |
+| **R2** | `GigabitEthernet0/0/1` | `10.53.2.1` | UP | Połączenie do R3 |
+| **R2** | `Loopback1` | `192.168.1.1` | UP | Symulowana sieć LAN / Router ID |
+| **R3** | `GigabitEthernet0/0/0` | `10.53.2.3` | UP | Połączenie do R2 |
+| **R3** | `GigabitEthernet0/0/1` | `10.53.1.3` | UP | Połączenie do R1 |
 
 ---
 
