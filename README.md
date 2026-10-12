@@ -1,4 +1,4 @@
-# OSPF-Dynamic-Routing-High-Availability-Topology-Redundant-WAN-# OSPF Dynamic Routing & High Availability Topology (Redundant WAN)
+# OSPF-Dynamic-Routing-High-Availability-Topology-Redundant-WAN
 
 ## 📌 Opis Projektu
 Projekt przedstawia wdrożenie routingu dynamicznego **OSPF** w topologii trójkąta (trzy routery Cisco ISR4331), zapewniającej pełną redundancję łącza oraz automatyczną zbieżność (convergence) i przełączanie awaryjne (failover) w przypadku uszkodzenia ścieżki podstawowej.
