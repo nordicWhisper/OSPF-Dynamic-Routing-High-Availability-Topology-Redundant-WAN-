@@ -8,6 +8,7 @@ Projekt przedstawia wdrożenie routingu dynamicznego **OSPF** w topologii trójk
 ## 🗺️ Topologia Sieci
 
 ![Topologia OSPF](ospfv2.png)
+![Topologia OSPF](ospf-show.png)
 
 ---
 
