@@ -36,6 +36,6 @@ Projekt przedstawia wdrożenie routingu dynamicznego **OSPF** w topologii trójk
 
 
 ## 🧪 Testowanie Ścieżki Alternatywnej (Failover Test)
-1. **Sprawdzenie statusu interfejsów:** `show ip interface brief`[cite: 3]
+1. **Sprawdzenie statusu interfejsów:** `show ip interface brief`
 2. **Weryfikacja sąsiadów OSPF:** `show ip ospf neighbor`
 3. **Symulacja awarii:** Wyłączenie interfejsu głównego (`shutdown`) powoduje natychmiastowe przeliczenie tablicy routingu przez algorytm SPF i przekierowanie ruchu przez router zapasowy.
